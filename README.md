@@ -10,7 +10,8 @@ Downloads and install Apache-Hadoop, Apache-Drill, and Apache-Zookeeper if not a
 Downloads custom configurations for these tools
 
 Datanode is good to go !
-to start the datanode :
+
+To start the datanode :
 - $HADOOP_HOME/bin/hdfs --daemon start datanode
 - $ZOOKEEPER_HOME/bin/zkServer.sh start
 - $DRILL_HOME/bin/drillbit.sh
