@@ -1,7 +1,7 @@
 #!/bin/bash
 
 adduser huser
-wget -O .profile https://raw.githubusercontent.com/AlexisVLRT/HadoopDeployer/master/.profile
+wget -O /home/huser/.profile https://raw.githubusercontent.com/AlexisVLRT/HadoopDeployer/master/.profile
 source /home/huser/.profile 
 
 for i in {1..25}; do
