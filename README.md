@@ -2,6 +2,7 @@
 A bash script to automatically download, install, and configure Hadoop for the class cluster's datanodes. Also installs Zookeeper and Drill
 
 Download datanode-setup.sh to your ~/ and execute as root from there.
+(wget -O ~/datanode-setup.sh https://raw.githubusercontent.com/AlexisVLRT/HadoopDeployer/master/datanode-setup.sh)
 
 - Creates huser
 - Adds environnement variables to .profile
