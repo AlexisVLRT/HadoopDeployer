@@ -4,7 +4,7 @@ adduser huser
 wget -O /home/huser/.profile https://raw.githubusercontent.com/AlexisVLRT/HadoopDeployer/master/.profile
 source /home/huser/.profile 
 
-for i in {1..25}; do
+for i in {1..26}; do
     if (( i < 10 )); then
         if ! grep NoeudBigData0$i /etc/hosts; then
             tee -a /etc/hosts <<< "10.78.104.$i NoeudBigData0$i"
