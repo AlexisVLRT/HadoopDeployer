@@ -19,17 +19,17 @@
 <configuration>
 	<property>
 		<name>dfs.namenode.name.dir</name>
-		<value>/data/small_cluster/name</value>
+		<value>/data/biggy/name</value>
 		<final>true</final>
 	</property>
         <property>
                 <name>dfs.datanode.data.dir</name>
-                <value>/data/small_cluster/data</value>
+                <value>/data/biggy/data</value>
                 <final>true</final>
         </property>
         <property>
                 <name>dfs.namenode.checkpoint.dir</name>
-                <value>data/small_cluster/namesecondary</value>
+                <value>data/biggy/namesecondary</value>
                 <final>true</final>
         </property>
         <property>
