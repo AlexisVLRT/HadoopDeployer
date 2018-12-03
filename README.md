@@ -26,4 +26,4 @@ To start the datanode, copy and execute as huser:
 - source .profile
 - $HADOOP_HOME/bin/hdfs --daemon start datanode
 - cd $ZOOKEEPER_HOME;bin/zkServer.sh start
-- cd;$DRILL_HOME/bin/drillbit.sh
+- cd;$DRILL_HOME/bin/drillbit.sh start
