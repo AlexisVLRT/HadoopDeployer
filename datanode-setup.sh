@@ -16,15 +16,15 @@ for i in {1..26}; do
     fi
 done
 
-mkdir /data/small_cluster
-mkdir /data/small_cluster/data
-mkdir /data/small_cluster/tmp
-mkdir /data/small_cluster/snn
-mkdir /data/small_cluster/name
-mkdir /data/small_cluster/dn
-mkdir /data/small_cluster/zooData
-tee -a /data/small_cluster/zooData/myid <<< $(sed "s/NoeudBigData//g" <<< $HOSTNAME)
-chown huser:huser -R /data/small_cluster
+mkdir /data/biggy
+mkdir /data/biggy/data
+mkdir /data/biggy/tmp
+mkdir /data/biggy/snn
+mkdir /data/biggy/name
+mkdir /data/biggy/dn
+mkdir /data/biggy/zooData
+tee -a /data/biggy/zooData/myid <<< $(sed "s/NoeudBigData//g" <<< $HOSTNAME)
+chown huser:huser -R /data/biggy
 
 
 if [ ! -d "/usr/local/hadoop-3.0.3" ]; then
