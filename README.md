@@ -12,7 +12,7 @@ A bash script to automatically download, install, and configure Hadoop for the c
 
 # Instructions
 
-Download datanode-setup.sh to your ~/ and execute as root from there.
+Download datanode-setup.sh and execute it using the folowwing commands :
 
  - wget -O ~/datanode-setup.sh https://raw.githubusercontent.com/AlexisVLRT/HadoopDeployer/master/datanode-setup.sh
  - chmod +x ~/datanode-setup.sh
